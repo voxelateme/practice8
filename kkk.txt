@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "type your weight in kg and height in meters"
+read -p "weight (kg): " weight
+read -p "height (m): " height
+
+bmi=$($weight / ($height * $height))
+
+echo "Your BMI is: $bmi"
